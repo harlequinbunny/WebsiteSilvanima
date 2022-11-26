@@ -1,0 +1,96 @@
+body {
+    width: 500vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.slide {
+    height: 100vh;
+    width: 900vh;
+    padding-top: 50px;
+    position: relative;
+    font-size: 48px;
+    font-style:initial;
+    font-family: 'Franklin Gothic Media';
+    letter-spacing: 4px;
+
+}
+
+
+
+.wrapper {
+    display: flex;
+    width: 1000vh;
+    transform: rotate(90deg) translateY(-100vh);
+    transform-origin: top left;
+    background-color: lightslategray;
+}
+
+.container {
+    height: 300vh;
+    width: 300vh;
+    transform: rotate(-90deg) translateX(-100vh);
+    transform-origin: top left;
+    position: absolute;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+.text1 {
+    width: 800px;
+    height: 200px;
+    font-size: 50px;
+    transform: translateX(-300vh);
+
+}
+
+.Titel {
+      font-size: 250px;
+      transform: translateX(-440vh);
+      margin-top: 660px;
+      color: #281E1C ;
+}
+
+.layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vh;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.l0 {
+    background: rgb(195,218,177);
+    background: linear-gradient(90deg, rgba(195,218,177,1) 0%, rgba(192,196,174,1) 76%);
+    width: 1000vh;
+    height: 100vh;
+}
+
+.l1 {
+    background-image: url(img/test2.png);
+    width: 900vh;
+    height: 100vh;
+}
+
+.l2 {
+
+    text-align: center;
+    padding-top: 10%;
+}
+
+a {
+    color: white;
+    padding-top: 10%;
+    font-family: 'Lucida Sans';
+    font-size:20px;
+
+}
+
+::-webkit-scrollbar {
+    display: none;
+}

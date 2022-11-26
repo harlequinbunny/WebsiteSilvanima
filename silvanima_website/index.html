@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <title>SILVANIMA</title>
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="wrapper">
+        <div class="slide"></div>
+
+            <div class="layer l0"></div>
+            <div class="layer l1"></div>
+            <div class="layer l2"></div>
+
+
+        <div class="slide">
+
+          <div class="Titel">
+            <h1> SILVANIMA </h1>
+          </div>
+
+    <div class="text1">
+    In einem friedlichen Wald, welcher das Leben der Natur versteckt hält, lebt die gutherzige
+    Hasendame Hedwig. Das Leben des Waldes steckt im Mutterbaum. Ein kleines Lichtlein, dass die
+    Natur und die Lebewesen blühen und gedeihen lässt. Doch diese Quelle des Lebens muss vor Bösen
+    Energien geschützt werden. So hat dieser Wald Hedwig erkoren, um ihn zu schützen. Doch schon
+    bald sollte sich einiges im Wald ändern. Denn nicht jede Seele ist so friedlich wie die, der Hüterin.
+
+        <a href="">RETURN TO START </a>
+
+
+
+
+
+
+            </div>
+
+
+        </div>
+ </div>
+</div>
+
+    <script type="text/javascript">
+
+        let cont = document.querySelector('container');
+        let layer = document.querySelectorAll('layer');
+
+        cont.onscroll = function(){
+            let X = cont.scrollTop;
+
+            layer[0].style.left = X/4 + 'px';
+            layer[1].style.left = X/8 + 'px';
+        }
+
+
+
+
+    </script>
+
+
+
+
+
+
+
+</body>
+
+
+</html>
