@@ -39,19 +39,73 @@ body {
     scroll-behavior: smooth;
 }
 
-.text1 {
-    width: 800px;
-    height: 200px;
-    font-size: 50px;
-    transform: translateX(-300vh);
+.überschrift1
+{
+  width: 1500px;
+  height: 200px;
+  font-size: 100px;
+  transform: translateX(-700vh);
+  padding-top: 1000px;
+  font-style: oblique;
+  font-weight: bolder;
 
 }
 
+.text1 {
+    width: 2000px;
+    height: 200px;
+    font-size: 100px;
+    transform: translateX(-733vh);
+    padding-top: 1150px;
+
+}
+
+.überschrift2 {
+  width: 1500px;
+  height: 200px;
+  font-size: 100px;
+  transform: translateX(-670vh);
+  padding-top: 650px;
+  font-style: oblique;
+  font-weight: bolder;
+}
+
+.text2 {
+  width: 2000px;
+  height: 200px;
+  font-size: 100px;
+  transform: translateX(-700vh);
+  padding-top: 800px;
+}
+
+.überschrift3 {
+  width: 1500px;
+  height: 200px;
+  font-size: 100px;
+  transform: translateX(-700vh);
+  padding-top: 650px;
+  font-style: oblique;
+  font-weight: bolder;
+}
+
+.text3 {
+  width: 2000px;
+  height: 200px;
+  font-size: 100px;
+  transform: translateX(-700vh);
+  padding-top: 800px;
+}
+
+.Hedwig {
+transform: translateX(-500vh);
+}
+
 .Titel {
+
       font-size: 250px;
-      transform: translateX(-440vh);
-      margin-top: 660px;
-      color: #281E1C ;
+      transform: translateX(-710vh);
+      margin-top: 550px;
+      color: #FEF3F1  ;
 }
 
 .layer {
